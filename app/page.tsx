@@ -46,7 +46,7 @@ export default function Home() {
             <div className="glass-card p-4 rounded-xl relative z-10 hover:shadow-2xl transition-premium">
               <div className="aspect-[4/5] overflow-hidden rounded-lg bg-surface-container relative">
                 <Image
-                  src="sanay-temp.png"
+                  src="/sanay/sanay-temp.png"
                   alt="Sanay Choubey Portrait"
                   fill
                   sizes="(max-width: 768px) 100vw, 33vw"
