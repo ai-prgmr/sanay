@@ -39,8 +39,8 @@ export default function Navbar() {
                   key={item.href}
                   href={item.href}
                   className={`font-body-md text-body-md transition-colors pb-1 ${isActive
-                      ? "text-secondary font-bold border-b-2 border-secondary"
-                      : "text-on-surface-variant hover:text-primary"
+                    ? "text-secondary font-bold border-b-2 border-secondary"
+                    : "text-on-surface-variant hover:text-primary"
                     }`}
                 >
                   {item.name}
@@ -48,7 +48,7 @@ export default function Navbar() {
               );
             })}
             <a
-              href="/Sanay_CV.pdf"
+              href="/sanay/Sanay_CV.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-primary text-on-primary px-6 py-2 rounded transition-all active:scale-95 hover:bg-secondary font-label-md text-label-md cursor-pointer hover:shadow-md"
@@ -91,8 +91,8 @@ export default function Navbar() {
                 key={item.href}
                 href={item.href}
                 className={`font-body-md text-lg transition-colors py-2 border-b border-outline/5 ${isActive
-                    ? "text-secondary font-bold"
-                    : "text-on-surface-variant hover:text-primary"
+                  ? "text-secondary font-bold"
+                  : "text-on-surface-variant hover:text-primary"
                   }`}
               >
                 {item.name}
