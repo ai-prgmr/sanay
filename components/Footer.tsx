@@ -32,7 +32,7 @@ export default function Footer() {
           </a>
         </div>
         <div className="text-on-surface-variant font-label-md text-label-md">
-          © 2024 Sanay Choubey. All rights reserved.
+          © 2026 Sanay Choubey. All rights reserved.
         </div>
       </div>
     </footer>

@@ -20,16 +20,16 @@ export default function ResearchPage() {
 
         {/* Layout Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
-          
+
           {/* Main Feed - Left Column (Articles Stack) */}
           <div className="lg:col-span-8 space-y-section-gap">
-            
+
             {/* Blog Post 1: Sustainable Finance */}
             <article className="glass-card rounded-xl overflow-hidden shadow-sm relative group hover:shadow-xl transition-premium">
               <div className="accent-line absolute top-0 left-0 w-full"></div>
               <div className="aspect-video relative overflow-hidden bg-surface-container">
                 <Image
-                  src="/sustainable_finance.png"
+                  src="/sanay/sustainable_finance.png"
                   alt="Futuristic sustainable metropolis and financial ESG charts"
                   fill
                   sizes="(max-width: 1024px) 100vw, 66vw"
@@ -50,7 +50,7 @@ export default function ResearchPage() {
                 <h2 className="font-headline-lg text-headline-lg text-primary mb-3 leading-snug group-hover:text-secondary transition-colors">
                   THE BIGGEST CHALLENGE IN SUSTAINABLE FINANCE TODAY
                 </h2>
-                
+
                 {/* Blockquote for Subtitle */}
                 <blockquote className="border-l-4 border-secondary/50 pl-4 py-1 my-4 italic text-body-lg text-on-surface-variant font-medium">
                   “Money shapes the world we live in. The question: Can we help save it?”
@@ -135,7 +135,7 @@ export default function ResearchPage() {
 
           {/* Sidebar Feed - Right Column */}
           <div className="lg:col-span-4 space-y-gutter">
-            
+
             {/* Collaboration CTA */}
             <div className="bg-primary p-8 rounded-xl relative overflow-hidden shadow-md group hover:shadow-lg transition-premium">
               {/* Background visual interest */}

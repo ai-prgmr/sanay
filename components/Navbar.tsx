@@ -29,7 +29,7 @@ export default function Navbar() {
           <Link href="/" className="font-headline-md text-headline-md font-bold tracking-tight text-primary hover:opacity-80 transition-opacity">
             Sanay Choubey
           </Link>
-          
+
           {/* Desktop Nav Links */}
           <div className="hidden md:flex gap-8 items-center">
             {navItems.map((item) => {
@@ -38,11 +38,10 @@ export default function Navbar() {
                 <Link
                   key={item.href}
                   href={item.href}
-                  className={`font-body-md text-body-md transition-colors pb-1 ${
-                    isActive
+                  className={`font-body-md text-body-md transition-colors pb-1 ${isActive
                       ? "text-secondary font-bold border-b-2 border-secondary"
                       : "text-on-surface-variant hover:text-primary"
-                  }`}
+                    }`}
                 >
                   {item.name}
                 </Link>
@@ -73,7 +72,7 @@ export default function Navbar() {
 
       {/* Mobile Drawer Menu Overlay */}
       {isOpen && (
-        <div 
+        <div
           className="fixed inset-0 z-40 bg-black/30 backdrop-blur-sm md:hidden"
           onClick={() => setIsOpen(false)}
         />
@@ -81,9 +80,8 @@ export default function Navbar() {
 
       {/* Mobile Drawer Menu Content */}
       <div
-        className={`fixed top-20 right-0 w-64 h-[calc(100vh-80px)] bg-surface-container-low/95 backdrop-blur-lg border-l border-outline/10 shadow-2xl z-40 transform transition-transform duration-300 md:hidden ${
-          isOpen ? "translate-x-0" : "translate-x-full"
-        }`}
+        className={`fixed top-20 right-0 w-64 h-[calc(100vh-80px)] bg-surface-container-low/95 backdrop-blur-lg border-l border-outline/10 shadow-2xl z-40 transform transition-transform duration-300 md:hidden ${isOpen ? "translate-x-0" : "translate-x-full"
+          }`}
       >
         <div className="flex flex-col p-6 gap-6">
           {navItems.map((item) => {
@@ -92,18 +90,17 @@ export default function Navbar() {
               <Link
                 key={item.href}
                 href={item.href}
-                className={`font-body-md text-lg transition-colors py-2 border-b border-outline/5 ${
-                  isActive
+                className={`font-body-md text-lg transition-colors py-2 border-b border-outline/5 ${isActive
                     ? "text-secondary font-bold"
                     : "text-on-surface-variant hover:text-primary"
-                }`}
+                  }`}
               >
                 {item.name}
               </Link>
             );
           })}
           <a
-            href="/Sanay_CV.pdf"
+            href="/sanay/Sanay_CV.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-primary text-on-primary text-center py-3 rounded transition-all active:scale-95 hover:bg-secondary font-label-md text-label-md mt-4"
